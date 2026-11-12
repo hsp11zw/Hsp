@@ -1,8 +1,13 @@
 {
-  "name": "TrueAlpha Studio",
-  "short_name": "TrueAlpha",
-  "start_url": "./index.html",
-  "display": "standalone",
   "background_color": "#090b10",
-  "theme_color": "#6366f1"
+  "dir": "auto",
+  "display": "standalone",
+  "name": "TrueAlpha Studio",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "TrueAlpha",
+  "start_url": "/index.html",
+  "theme_color": "#6366f1",
+  "description": "TrueAlpha Studio",
+  "id": "TrueAlpha Studio"
 }
