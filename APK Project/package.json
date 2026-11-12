@@ -1,0 +1,20 @@
+{
+  "name": "truealpha-studio",
+  "version": "1.0.0",
+  "description": "TrueAlpha Studio - True Transparency Video & GIF Background Remover",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win --x64"
+  },
+  "build": {
+    "appId": "com.truealpha.studio",
+    "productName": "TrueAlpha Studio",
+    "win": { "target": "nsis" },
+    "nsis": { "oneClick": false, "allowToChangeInstallationDirectory": true, "createDesktopShortcut": true }
+  },
+  "devDependencies": {
+    "electron": "^30.0.0",
+    "electron-builder": "^24.13.3"
+  }
+}
